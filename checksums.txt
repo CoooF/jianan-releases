@@ -1,1 +1,1 @@
-a232e27fb7967c03006bff9b00e110f1269966fbcd99e87b9b3b82981f8c7eda  jianan-1.0.47-darwin-arm64.dmg
+88abc9f0c6fd53bd6b099a1821706f8bb4699cf768d78a1b4dcc71434d6a7b21  jianan-1.0.48-darwin-arm64.dmg
