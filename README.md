@@ -1,19 +1,13 @@
-# 见岸 · 安装包与更新
+# 见岸 · 应用下载
 
-见岸帮助把跟课截图、课件、老师文稿和 AI 讲解留在自己的学习库中。
+当前内测版本 **1.0.50**，提供Mac Apple Silicon与Windows x64。
 
-[下载当前 Mac 内测版 1.0.49](https://github.com/CoooF/jianan-releases/releases/tag/v1.0.49)
+[完整发布说明](https://github.com/CoooF/jianan-releases/releases/tag/v1.0.50)
 
-适合 Apple Silicon（M 系列）Mac。DMG **284.05 MB**，应用名称「见岸」。打开 DMG，将应用拖到 Applications，再按欢迎页新建学习库、填写测试激活码并配置自己的 Pi 模型。激活码由作者通过微信分发。
+- [jianan-1.0.50-darwin-arm64.dmg](https://github.com/CoooF/jianan-releases/releases/download/v1.0.50/jianan-1.0.50-darwin-arm64.dmg) — 284.24 MB
+- [jianan-1.0.50-win-r2-win32-x64.exe](https://github.com/CoooF/jianan-releases/releases/download/v1.0.50/jianan-1.0.50-win-r2-win32-x64.exe) — 198.15 MB
+- [jianan-1.0.50-win-r2-win32-x64.zip](https://github.com/CoooF/jianan-releases/releases/download/v1.0.50/jianan-1.0.50-win-r2-win32-x64.zip) — 288.69 MB
 
-1.0.49 新增文本/图像连接测试，可取消并在30秒超时；支持测试待保存的兼容端点和JSON草稿，保存配置不会自动发请求。新API Key使用见岸独立本地文件，受文件权限保护，保存和重启读取不调用钥匙串。旧加密Key保留，明确解锁旧Key仍可能出现系统密码提示。
+校验文件见Release的checksums.txt。安装前请完整备份学习库，正常退出应用后手动安装；不自动重启。Mac未Developer ID签名/公证，Windows未代码签名。Windows保留旧版时可用/NO_SHORTCUTS安装到新D盘目录，具体见发布说明。
 
-新用户推荐 **DeepSeek deepseek-flash 多模态**，保留已有选择。智谱 **GLM-5.3-Flash** 为文本+图像，GLM-5.3为文字；中国普通API、中国Coding Plan、全球普通API和全球Coding Plan分别配置对应账户。Pi保持1.1.0。连接测试可能消耗少量模型用量，账号权限和教学质量需实际验证。
-
-继续保持1.0.48的独立正式配置、自选学习库、正常重启记库、缺失库找回与完整备份恢复。升级前完成正在运行的任务并创建完整备份，正常退出见岸，再把新应用拖入Applications并手动替换；下载完成不会自动安装。从误读开发库的.46/.47切换时，在新版欢迎页恢复完整备份，原开发配置/Key/激活不自动搬移。
-
-此内测包尚未经过Apple Developer ID签名和公证。首次如果被macOS拦截，先尝试打开，再到「系统设置 → 隐私与安全性」点击见岸对应的「仍要打开」，按系统提示确认。参见[Apple官方说明](https://support.apple.com/zh-cn/102445)。
-
-应用支持更新提醒、下载进度、签名/大小/SHA256校验及下载记录恢复；安装仍由用户手动完成。
-
-此仓库仅分发安装包、版本说明和签名更新清单，源码保存在私人仓库。Windows和Intel Mac包尚未在此发布。
+本公开仓库只提供应用包、说明及签名更新清单，源码不公开。更新按platform/arch精确选包，Mac与Windows不会互相下载错包；Intel Mac和Windows ARM64暂未提供。
